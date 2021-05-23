@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="dist/css/lightgallery.css">
+    <title>Gallery</title>
+</head>
+
+<body>
+    <script src="dist/js/lightgallery.js"></script>
+    
+    <header>
+        <h1>Gallery</h1>
+    </header>
+    <link rel="stylesheet" href="style.css">
+    <div class="nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="profile.html">profile</a></li>
+            <li><a href="gallery.html">gallery</a></li>
+        </ul>
+    </div>
+
+    <div class="main">
+        <div class="gallery">
+            <div id="lightgallery_images">
+                <a href="gallery/noc.png" data-sub-html="海"><img src="gallery/thumb_noc.png"></a>
+                <a href="gallery/tim.jpg" data-sub-html="時間屋"><img src="gallery/thumb_tim.png"></a>
+                <a href="gallery/nae.JPG" data-sub-html="ナエトル"><img src="gallery/thumb_nae.png"></a>
+                <a href="gallery/dmg.JPG" data-sub-html="ジャケット"><img src="gallery/thumb_dmg.png"></a>
+                <a href="gallery/cow.JPG" data-sub-html="牛"><img src="gallery/thumb_cow.png"></a>
+                <a href="gallery/dra.JPG" data-sub-html="トカゲ"><img src="gallery/thumb_dra.png"></a>
+                <a href="gallery/flo.jpg" data-sub-html="き"><img src="gallery/thumb_flo.png"></a>
+                <a href="gallery/ggg.jpg" data-sub-html="殴り書き"><img src="gallery/thumb_ggg.png"></a>
+                <a href="gallery/bin.jpg" data-sub-html="瓶"><img src="gallery/thumb_bin.png"></a>
+                <a href="gallery/sal.jpg" data-sub-html="ドラゴン"><img src="gallery/thumb_sal.png"></a>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        lightGallery(document.getElementById('lightgallery_images')); 
+    </script>
+
+    <footer>
+        <div class="foot_text">2020-, S.T.</div>
+    </footer>
+</body>
+
+</html>
