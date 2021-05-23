@@ -41,11 +41,11 @@ header h1 {
 }
 
 .nav a{
+    flex: 1 0 auto;
     text-decoration: none;
     color: white;
     display: block;
     text-align: center;
-    padding: 10%;
 }
 
 .nav :hover{
